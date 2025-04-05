@@ -7,7 +7,6 @@ public class Task_13march {
 
         int grade = Integer.parseInt(grade1);
         String result = (grade >= 90) ? "A" : (grade >= 80) ? "B" : (grade >= 70) ? "C" : (grade >= 60) ? "D" : "F";
-        System.out.println(result
-        );
+        System.out.println(result);
     }
 }
