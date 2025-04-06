@@ -43,6 +43,7 @@ public class Lab_Switch_case {
                 break;
 
         }
+        scanner.close();
     }
 
 }
