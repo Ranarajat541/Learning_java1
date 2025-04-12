@@ -2,7 +2,7 @@ package Task_14thmarch;
 
 import java.util.Scanner;
 
-public class task_ {
+public class Task_triangle_classifier {
     public static void main(String[] args) {
         // Triangle Classifier:
         //
@@ -33,5 +33,6 @@ public class task_ {
         else {
             System.out.println("scalene (no sides are equal)");
         }
+
     }
 }
