@@ -33,6 +33,7 @@ public class Task_triangle_classifier {
         else {
             System.out.println("scalene (no sides are equal)");
         }
+        scanner.close();
 
     }
 }
