@@ -6,7 +6,7 @@ public class Largest_no2 {
             int[] numbers = {45, 22, 89, 67, 12, 99, 34}; // Example array
             int largest = numbers[0];
 
-            for (int i = 0; i < numbers.length; i++) {
+            for (int i = 1; i < numbers.length; i++) {
                 if (numbers[i] > largest) {
                     largest = numbers[i];
                 }
