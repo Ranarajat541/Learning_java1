@@ -8,8 +8,12 @@ public class Task_OOps2 {
 
          s1.person_name("Rajat");    // with parameter and without return type
 
-        s1.person_age();
+
+
+        s1.set_age(25);
         System.out.println("Age is:"+s1.person_age());   //without parameter but with return type
+
+
 
         String de = s1.details("Rajat","Rana");
         System.out.println(de);       //with parameter and with return type
@@ -21,8 +25,8 @@ public class Task_OOps2 {
 
 
     class Task{
-        String name;
-        int age;
+        String name;    //use this class under the name
+        int age;    // use this for age
 
 
 
@@ -31,11 +35,25 @@ public class Task_OOps2 {
             System.out.println("Hello my name is rajat");   //without parameter and without return type
         }
         void person_name(String name1){
-            System.out.println("Name is :"+name1);   // with parameter and without return type
+            name = name1;
+            System.out.println("Name is :"+name);   // with parameter and without return type
         }
+
+
+
+
+
         public int person_age(){
-            return 25;        //without parameter but with return type
+            return age;         //without parameter but with return type
         }
+        public void set_age(int a) {
+            age = a;                   // use for set the age
+        }
+
+
+
+
+
         public String details(String firstname, String lastname){
             return  "first name is:" +firstname+" lastname is:"+lastname;   //with parameter and with return type
         }
