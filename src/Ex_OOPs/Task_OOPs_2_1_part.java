@@ -1,7 +1,9 @@
+package Ex_OOPs;
+
 public class Task_OOPs_2_1_part {
 
         public static void main(String[] args) {
-            Task s1 = new Task();
+            Task1 s1 = new Task1();
 
             s1.intro();    //without parameter and without return type
 
@@ -19,7 +21,7 @@ public class Task_OOPs_2_1_part {
 
 
 
-    class Task{
+    class Task1{
         String name;
         int age;
 
