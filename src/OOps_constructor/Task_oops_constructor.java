@@ -17,14 +17,20 @@ public class Task_oops_constructor {
             System.out.println(p1.phone);
             System.out.println(p1.IsMale);
 
-            Person1 p2= new Person1("Parameterized Const",2,"Second");
+            System.out.println("-----------------------------------");
+
+            Person1 p2= new Person1("Parameterized Const",20,"Address");
             System.out.println(p2.name);
             System.out.println(p2.age);
             System.out.println(p2.address);
 
+            System.out.println("-----------------------------------");
+
             Person1 p3= new Person1("Constructor Overloading", 974728379);
             System.out.println(p3.name);
             System.out.println(p3.phone);
+
+            System.out.println("-----------------------------------");
 
             p1.eat();
 
@@ -32,7 +38,7 @@ public class Task_oops_constructor {
 
             p3.walk();
 
-            p1.doHome();
+            p3.doHome();
 
 
 
@@ -54,16 +60,16 @@ public class Task_oops_constructor {
             IsMale=false;
         }
 
-        // 2. Parameterized Constructor
+        // 2. Parameterized Constructor -
 
         Person1(String name_pc_arg, int age_pc_arg, String address_pc_arg ){
-            this.name= name_pc_arg;
+            this.name= name_pc_arg;   //this keyword is a reference variable that refers to the current object within an instance method or constructor.
             this.age= age_pc_arg;
             this.address= address_pc_arg;
 
         }
 
-        // 3. Constructor Overloading
+        // 3. Constructor Overloading  --when you create another constructor with the same name.
         Person1(String name_pc_arg, long phone_pc_arg){
             this.name = name_pc_arg;
             this.phone= phone_pc_arg;
